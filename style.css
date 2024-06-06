@@ -76,7 +76,7 @@ nav {
   transition: 0.3s ease-in-out;
 }
 
-.social-media a i:hover{
+.social-media a i:hover {
   color: var(--golden-color);
 }
 
@@ -187,47 +187,44 @@ p span {
   box-shadow: 0px 0px 10px var(--golden-color);
 }
 
-.row .card p{
-   color: var(--text-color);
-   text-align: justify;
+.row .card p {
+  color: var(--text-color);
+  text-align: justify;
 }
 
+.contact-container {
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-around;
+}
 
-
-
-.contact-container{
-   padding: 10px 5%;
-   display: flex;
-   justify-content: space-around;
- }
-
- .contact-left h1{
+.contact-left h1 {
   text-align: center;
   margin-top: 30px;
- }
- .contact-left a{
-   text-decoration: none;
- }
+}
+.contact-left a {
+  text-decoration: none;
+}
 
- .contact-left a i{
-   list-style-type: none;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   font-size: 30px;
-   color: var(--golden-color);
-   transition: all ease 0.4s;
- }
+.contact-left a i {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  color: var(--golden-color);
+  transition: all ease 0.4s;
+}
 
- .contact-left a i:hover{
-   transform: scale(2);
-   color: white;
- }
+.contact-left a i:hover {
+  transform: scale(1.5);
+  color: white;
+}
 
- .contact-right button{
-  padding:  10px 50px;
-   margin-top: 15px;
-   margin-left: 10px;
+.contact-right button {
+  padding: 10px 50px;
+  margin-top: 15px;
+  margin-left: 10px;
   border-radius: 1rem;
   font-size: 1rem;
   border: 2px solid transparent;
@@ -237,37 +234,33 @@ p span {
   color: white;
   border: 2px solid var(--golden-color);
   box-shadow: 0 0 20px transparent;
- 
- }
-  .contact-right button:hover{
-    transform: scale(1.05);
-  box-shadow: 0 0 10px var(--golden-color),
-  0 0 20px var(--golden-color);
+}
+.contact-right button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px var(--golden-color), 0 0 20px var(--golden-color);
   background: transparent;
   color: var(--golden-color);
-  }
- 
- 
- form input, form textarea{
+}
+
+form input,
+form textarea {
   width: 100%;
   background: black;
   color: var(--text-color);
   padding: 15px;
   margin: 10px;
   border-radius: 10px;
-   
- }
+}
 
-form textarea::placeholder{
+form textarea::placeholder {
   color: var(--text-color);
   font-family: var(--font-family);
- }
- form input::placeholder{
+}
+form input::placeholder {
   color: var(--text-color);
   font-family: var(--font-family);
- }
+}
 
- .contact-container{
-   margin-top: 90px;
- }
-
+.contact-container {
+  margin-top: 90px;
+}
